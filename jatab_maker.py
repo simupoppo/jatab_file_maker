@@ -88,7 +88,7 @@ def ask_function(texts,answer,where_show=0,output_type=0):
 
 # main_function
 def jatab_maker(infile_path,outfile_path,where_show=0):
-    obj_with_name_list=[b"BRDG",b"BUIL",b"CCAR",b"GOOD",b"GOBJ",b"SIGN",b"TUNL",b"VHCL",b"WAY\00",b"WYOB"]
+    obj_with_name_list=[b"BRDG",b"BUIL",b"CCAR",b"GOOD",b"GOBJ",b"SIGN",b"TREE",b"TUNL",b"VHCL",b"WAY\00",b"WYOB"]
     def read_header(infile,outfile):
         # copy file header 
         for i in range(1000):
